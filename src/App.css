@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: white;
+}
+.hero-banner{
+    position: absolute;
+    right: 40px;
+    top: 0px;
+    width: 790px;
+    height: 600px;
+    margin-top: -330px;
+  
+  }
+  .bodyPart-card {
+    transform: scale(1, 1);
+    transition: 0.3s all ease-in-out;
+  }
+  .bodyPart-card:hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .exercise{
+    margin-top: 100px;
+    color: #8B0000;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  
+
+  .login{
+    width: 25%;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    padding: 50px;
+  }
+
+img{
+  width: 280px;
+  border-radius: 16px;
+}
