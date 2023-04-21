@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-image: url(file:///C:/Users/Naveen/Downloads/The%20Matrix%20Wallpaper%20Gif%20Its%20the%20matrix.gif);
     color: white;
 }
 .hero-banner{
@@ -11,17 +11,10 @@ body{
     margin-top: -330px;
   
   }
-  .bodyPart-card {
-    transform: scale(1, 1);
-    transition: 0.3s all ease-in-out;
-  }
-  .bodyPart-card:hover {
-    transform: scale(1.1, 1.1);
-  }
 
-  .exercise{
+  .projects{
     margin-top: 100px;
-    color: #8B0000;
+    color: white;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -44,3 +37,10 @@ img{
   width: 280px;
   border-radius: 16px;
 }
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+

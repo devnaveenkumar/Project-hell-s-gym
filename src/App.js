@@ -1,13 +1,12 @@
 import './App.css';
 import { Route, Routes  } from 'react-router-dom'
 import { Box } from '@mui/material';
-import ExerciseDetail from './pages/ExerciseDetail';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
-
-import Footer from './components/Footer';
-import Exercises from './components/Exercises';
+import Projects from './components/Project';
 import Login from './components/login';
+import Skills from './components/skills';
+import About from './components/about';
 
 function App() {
   return (
@@ -16,11 +15,12 @@ function App() {
         <Navbar />
         <Routes>
           <Route path = "/" element = {<Home />}/>
-          <Route path = "/exercises" element = {<Exercises />} />
+          <Route path = "/projects" element = {<Projects />} />
           <Route path = "/login" element = {<Login />} />
-       
+          <Route path = "/skills" element = {<Skills />} />
+          <Route path = "/about" element = {<About />} />
           </Routes>
-        <Footer />
+
       </Box>
     </div>
   );

@@ -1,0 +1,47 @@
+.skills{
+    width: 77%;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    background-color: black;
+    margin: 100px;
+    justify-content: center;
+    text-align: center;
+    padding: 60px;
+  }
+  
+  .container{
+    position: absolute;
+    left: 440px;
+    justify-content: center;
+    background-color: rgb(192, 192, 192);
+    width: 40%;
+    border-radius: 10px;
+  }
+
+  .skill{
+    background-color: green;
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+  }
+
+  .html{
+    width: 70%;
+  }
+
+  .js{
+    width: 60%;
+  }
+
+  .cpp{
+    width: 90%;
+  }
+
+  .py{
+    width: 70%;
+  }
+
+  .java{
+    width: 40%;
+  }
